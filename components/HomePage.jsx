@@ -74,14 +74,14 @@ const styles = StyleSheet.create({
     color: "white",
   },
   item: {
-    flexDirection: "column", // Stack image and text vertically
+    flexDirection: "column",
     alignItems: "center",
     justifyContent: "center",
     padding: 10,
     backgroundColor: "white",
     marginHorizontal: 5,
     borderRadius: 5,
-    width: 90, // Set a fixed width for each box
+    width: 90,
     elevation: 2, // For Android shadow
     shadowColor: "gray", // For iOS shadow
     shadowOffset: { width: 0, height: 1 },
@@ -90,13 +90,12 @@ const styles = StyleSheet.create({
     marginBottom: 50,
   },
   image: {
-    width: 50, // Set the width of the image
-    height: 50, // Set the height of the image
+    width: 50,
+    height: 50,
     marginBottom: 5,
   },
   itemText: {
     fontSize: 14,
-
     textAlign: "center",
   },
 });
